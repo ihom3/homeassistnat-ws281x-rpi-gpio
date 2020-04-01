@@ -21,9 +21,9 @@ This is a modified version of homeassistant-ws281x-control made by Github user l
 4. Now, we're going to need to modify the service file (homeassistant-ws281x-rpi-gpio.service). I prefer to use nano, however you could use whatever text editor you prefer (Ex. Mousepad if you're using the desktop mode of the raspberry pi)
 >sudo nano /usr/local/src/homeassistant-ws281x-rpi-gpio/homeassistant-ws281x-rpi-gpio.service
 5. First, set the user field to a user that has GPIO acess rights, such as root and change the working directory/ exec start to wherever you placed the installation from step 3.
+
 **Example**
-> 
-...
+> ...
 User=root
 Group=nogroup
 WorkingDirectory=/usr/local/src/homeassistant-ws281x-control
