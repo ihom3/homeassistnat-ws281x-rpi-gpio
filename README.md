@@ -23,9 +23,11 @@ This is a modified version of homeassistant-ws281x-control made by Github user l
 5. First, set the user field to a user that has GPIO acess rights, such as root and change the working directory/ exec start to wherever you placed the installation from step 3.
 
 **Example**
-> ...
+```
+...
 >User=root
 >Group=nogroup
 >WorkingDirectory=/usr/local/src/homeassistant-ws281x-control
 >ExecStart=/usr/local/src/homeassistant-ws281x-control/homeassistant-ws281x-control.py
->...
+...
+```
