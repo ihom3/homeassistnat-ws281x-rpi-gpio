@@ -46,3 +46,8 @@ STRIP_0_DMA=10
 STRIP_0_TYPE=ws2811_strip_grb
 
 ```
+7. Next, we are going to need to place our service and control files in the proper directories. This can be accomplished with the following commands:
+```
+sudo mv homeassistant-ws281x-rpi-gpio.service /etc/systemd/system
+sudo mv homeassistant-ws281x-rpi-gpio-control /etc/
+```
