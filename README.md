@@ -25,9 +25,9 @@ This is a modified version of homeassistant-ws281x-control made by Github user l
 **Example**
 ```
 ...
->User=root
->Group=nogroup
->WorkingDirectory=/usr/local/src/homeassistant-ws281x-control
->ExecStart=/usr/local/src/homeassistant-ws281x-control/homeassistant-ws281x-control.py
+User=root
+Group=nogroup
+WorkingDirectory=/usr/local/src/homeassistant-ws281x-control
+ExecStart=/usr/local/src/homeassistant-ws281x-control/homeassistant-ws281x-control.py
 ...
 ```
