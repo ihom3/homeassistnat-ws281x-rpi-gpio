@@ -18,5 +18,5 @@ This is a modified version of homeassistant-ws281x-control made by Github user l
   
 > git clone https://www.github.com/ihom3/homeassistnat-ws281x-rpi-gpio
 
-4.Now, we're going to need to modify the service file (homeassistant-ws281x-rpi-gpio.service). I prefer to use nano, however you could use whatever text editor you prefer (Ex. Mousepad if you're using the desktop mode of the raspberry pi)
+4. Now, we're going to need to modify the service file (homeassistant-ws281x-rpi-gpio.service). I prefer to use nano, however you could use whatever text editor you prefer (Ex. Mousepad if you're using the desktop mode of the raspberry pi)
 >sudo nano /usr/local/src/homeassistant-ws281x-rpi-gpio/homeassistant-ws281x-rpi-gpio.service)
