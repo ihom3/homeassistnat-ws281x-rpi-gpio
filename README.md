@@ -51,3 +51,4 @@ STRIP_0_TYPE=ws2811_strip_grb
 sudo mv homeassistant-ws281x-rpi-gpio.service /etc/systemd/system
 sudo mv homeassistant-ws281x-rpi-gpio-control /etc/
 ```
+8.
