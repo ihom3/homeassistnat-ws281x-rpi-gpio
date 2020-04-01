@@ -31,3 +31,17 @@ WorkingDirectory=/usr/local/src/homeassistant-ws281x-control
 ExecStart=/usr/local/src/homeassistant-ws281x-control/homeassistant-ws281x-control.py
 ...
 ```
+6. Now that we've edited our service file, we can edit the control file. Again, I am going to use nano for this, however you can use whichever text editor you prefer. 
+> sudo nano /usr/local/src/homeassistant-ws281x-rpi-gpio/homeassistant-ws281x-rpi-gpio-control
+Now, simply input your MQTT host, port, and your LED pin, count, and type. There really shouldn't be a reason to modify the mqtt topic (unless you change it in your homeassistant configuration.yaml file) or the DMA.
+```
+MQTT_HOST=192.168.4.2
+MQTT_PORT=1883
+MQTT_BASE_TOPIC=/rpi-gpio/ws281x/
+
+STRIP_0_PIN=10
+STRIP_0_LED_COUNT=284
+STRIP_0_DMA=10
+STRIP_0_TYPE=ws2811_strip_grb
+
+```
